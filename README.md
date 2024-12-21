@@ -40,6 +40,8 @@ For different input combinations generate the timing diagram.
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+
+`````
 module digital10(clk,rst,q);
 input clk,rst;
 output[2:0]q;
@@ -50,6 +52,7 @@ if(~rst==0)
 else
     q<=q+1'b1;
 endmodule
+`````
 
 Developed by:S.NITHYASREE
 RegisterNumber:24900149
